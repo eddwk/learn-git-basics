@@ -11,3 +11,12 @@ Instructions for use:
 2. `cd learn-git-basics`
 3. Install the dependencies from the root with `pip install -r requirements.txt`
 4. Run the test suite with `pytest`
+
+Before you begin your work, you should create a new branch: `git checkout -b [your branch name]` and do all of the work on a new branch.
+
+Once you have finished the work:
+
+1. Review all of your changes using `git diff`. Make sure that the formatting is clean and that there aren't any mispelled words or typos.
+2. Stage your changes to be committed with `git add [file_name]` or `git add .` if you want to commit all of your changes.
+3. Commit your changes with `git commit -m 'fix fizzbuzz tests'`
+4. Push the changes to github with `git branch --set-upstream origin [your branch name]` and open a pull request to be reviewed.
